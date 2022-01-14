@@ -14,6 +14,9 @@
 		19A64F00279101EB003B14A7 /* XcodeFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A64EFF279101EB003B14A7 /* XcodeFirebaseTests.swift */; };
 		19A64F0A279101EB003B14A7 /* XcodeFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A64F09279101EB003B14A7 /* XcodeFirebaseUITests.swift */; };
 		19A64F0C279101EB003B14A7 /* XcodeFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A64F0B279101EB003B14A7 /* XcodeFirebaseUITestsLaunchTests.swift */; };
+		19A64F1D27910552003B14A7 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A64F1C27910552003B14A7 /* DescView.swift */; };
+		19A64F1F27910570003B14A7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A64F1E27910570003B14A7 /* ListView.swift */; };
+		19A64F222791058E003B14A7 /* MergeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A64F212791058E003B14A7 /* MergeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		19A64F05279101EB003B14A7 /* XcodeFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A64F09279101EB003B14A7 /* XcodeFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeFirebaseUITests.swift; sourceTree = "<group>"; };
 		19A64F0B279101EB003B14A7 /* XcodeFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19A64F1C27910552003B14A7 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
+		19A64F1E27910570003B14A7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		19A64F212791058E003B14A7 /* MergeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,11 @@
 		19A64EED279101EA003B14A7 /* XcodeFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				19A64F1B27910539003B14A7 /* Resource */,
+				19A64F1927910520003B14A7 /* Model */,
 				19A64EEE279101EA003B14A7 /* XcodeFirebaseApp.swift */,
 				19A64EF0279101EA003B14A7 /* ContentView.swift */,
+				19A64F1827910518003B14A7 /* View */,
 				19A64EF2279101EB003B14A7 /* Assets.xcassets */,
 				19A64EF4279101EB003B14A7 /* Preview Content */,
 			);
@@ -125,6 +134,30 @@
 				19A64F0B279101EB003B14A7 /* XcodeFirebaseUITestsLaunchTests.swift */,
 			);
 			path = XcodeFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		19A64F1827910518003B14A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19A64F1C27910552003B14A7 /* DescView.swift */,
+				19A64F1E27910570003B14A7 /* ListView.swift */,
+				19A64F212791058E003B14A7 /* MergeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19A64F1927910520003B14A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19A64F1B27910539003B14A7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A64F1F27910570003B14A7 /* ListView.swift in Sources */,
 				19A64EF1279101EA003B14A7 /* ContentView.swift in Sources */,
+				19A64F222791058E003B14A7 /* MergeView.swift in Sources */,
 				19A64EEF279101EA003B14A7 /* XcodeFirebaseApp.swift in Sources */,
+				19A64F1D27910552003B14A7 /* DescView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
